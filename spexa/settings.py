@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-08gqkt$@xczj*g*qhiiu175w!$)ox9p#1e+=fv)8nl8v*lme+o'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['128.199.37.72', 'web.spexaelectrical.com']
 
 
 # Application definition
