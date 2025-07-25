@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-08gqkt$@xczj*g*qhiiu175w!$)ox9p#1e+=fv)8nl8v*lme+o
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['128.199.37.72', 'web.spexaelectrical.com']
+ALLOWED_HOSTS = ['web.spexaelectrical.com']
 
 
 # Application definition
@@ -119,7 +119,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
